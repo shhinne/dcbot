@@ -18,6 +18,6 @@ async def on_message(message):
         # Send a message back to the user
         await message.channel.send("Hey  bro im alive !")
     if message.content.startswith("!owner "):
-       await message.channel.send("Developed by Shine")
+       await message.channel.send("Developed by user")
 # Start the bot
 client.run("bot_token")
